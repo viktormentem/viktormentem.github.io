@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [{
+      "appID": "Y55F7MQF77.com.mycel.therapycopilot",
+      "components": [
+        { "/": "/mentem-skemaer-lokal", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-lokal, bare path — linkets faktiske form) → Companion. Andre ?s=-skemaer forbliver i web." },
+        { "/": "/mentem-skemaer-lokal/*", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-lokal, under-stier) → Companion." },
+        { "/": "/mentem-skemaer-preview", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-preview, test, bare path) → Companion." },
+        { "/": "/mentem-skemaer-preview/*", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-preview, under-stier) → Companion." }
+      ]
+    }]
+  }
+}
