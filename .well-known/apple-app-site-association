@@ -7,7 +7,9 @@
         { "/": "/mentem-skemaer-lokal", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-lokal, bare path — linkets faktiske form) → Companion. Andre ?s=-skemaer forbliver i web." },
         { "/": "/mentem-skemaer-lokal/*", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-lokal, under-stier) → Companion." },
         { "/": "/mentem-skemaer-preview", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-preview, test, bare path) → Companion." },
-        { "/": "/mentem-skemaer-preview/*", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-preview, under-stier) → Companion." }
+        { "/": "/mentem-skemaer-preview/*", "?": { "s": "soevndagbog" }, "comment": "Søvndagbog (-preview, under-stier) → Companion." },
+        { "/": "/mentem-skemaer-lokal", "?": { "s": "vek-gruppe" }, "comment": "Vestegnsklinikken gruppe-forløb (-lokal, bare path) → Companion. Gruppe-onboarding via ?s=vek-gruppe&t=<gruppe-token>." },
+        { "/": "/mentem-skemaer-lokal/*", "?": { "s": "vek-gruppe" }, "comment": "Vestegnsklinikken gruppe-forløb (-lokal, under-stier) → Companion." }
       ]
     }]
   }
